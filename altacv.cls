@@ -111,6 +111,18 @@
   \medskip
 }
 
+\newcommand{\cveventnew}[5]{%
+  {\large\color{emphasis}#1\par}
+  \smallskip
+  \textbf{\color{accent}#2}\par
+  \smallskip
+  \textbf{\small\color{body}#3}\par
+  \smallskip
+  {\small\makebox[0.5\linewidth][l]{\faCalendar \hspace{0.5em}#4}%
+  \ifstrequal{#4}{}{}{\makebox[0.5\linewidth][l]{\faMapMarker\hspace{0.5em}#4}}\par}
+  \medskip
+}
+
 \newcommand{\cvachievement}[3]{%
   \begin{tabularx}{\linewidth}{@{}p{2em} @{\hspace{1ex}} >{\raggedright\arraybackslash}X@{}}
   \multirow{2}{*}{\Large\color{accent}#1} & \bfseries\textcolor{emphasis}{#2}\\
