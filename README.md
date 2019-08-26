@@ -28,3 +28,17 @@ Though if you're creating your own CV/résumé, you'd probably prefer using the 
 * AltaCV uses [`fontawesome`](http://www.ctan.org/pkg/fontawesome) and [`academicons`](http://www.ctan.org/pkg/academicons); they're included in both TeX Live 2016 and MikTeX 2.9.
 * The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) font.
 * LuaLaTeX compilation is **strongly** recommended. If you want to use XeLaTeX instead, that's fine, but you may need to make sure `academicons.ttf` is installed _on_ your operating system, not just available in your `TEXMF` tree with the `academicons` LaTeX package.
+
+# Description (Brief text on what the project is about)
+
+# Dependencies (List of libs and tools the projects uses or need to run)
+
+# Getting Started (Steps to spin up the project)
+
+# Contribution (Section on how to contribute and what not)
+
+# Troubleshooting (Gotchas that most folks come across when working with your project)
+
+# Roadmap (Future changes you wish to add toy our project)
+
+# License 
